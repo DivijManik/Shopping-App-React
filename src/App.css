@@ -182,6 +182,10 @@ button {
 
 /* PRODUCT */
 
+.ProductLink {
+  -webkit-tap-highlight-color: black;
+}
+
 .Product {
   display: inline-block;
   text-align: center;

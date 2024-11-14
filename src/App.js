@@ -142,7 +142,7 @@ function ProductInfo({ ProductData, SetCurrentPage, SetProductID }) {
   let id_ = ProductData.id;
 
   return (
-    <Link to={'product?id=' + id_} state={data} style={{ color: 'black' }} >
+    <Link to={'product?id=' + id_} state={data} style={{ color: 'black' }} className='ProductLink'>
       <div className='Product'> {/*onClick={() => OnProductClick(ProductData.id)}> */}
         <div className='ProductImgContainer'>
           <img src={ProductData.image}></img>
