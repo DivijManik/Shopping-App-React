@@ -14,11 +14,11 @@ import ProductDetails from './Components/ProductPage/ProductDetails';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Shopping-App-React",
     element: <App />,
   },
   {
-    path: "product",
+    path: "/Shopping-App-React/product",
     element: <ProductDetails />,
   },
 ]);

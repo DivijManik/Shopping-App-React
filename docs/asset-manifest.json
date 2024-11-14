@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Shopping-App-React/static/css/main.e3bd6f3d.css",
-    "main.js": "/Shopping-App-React/static/js/main.35acec8c.js",
+    "main.js": "/Shopping-App-React/static/js/main.2a4f148c.js",
     "static/js/453.038d5e49.chunk.js": "/Shopping-App-React/static/js/453.038d5e49.chunk.js",
     "static/media/banner2.jpg": "/Shopping-App-React/static/media/banner2.4f3c15c1dac1e0550dc1.jpg",
     "static/media/banner3.jpg": "/Shopping-App-React/static/media/banner3.358c894fc734d9009a11.jpg",
@@ -17,11 +17,11 @@
     "static/media/arrowFrw.svg": "/Shopping-App-React/static/media/arrowFrw.6d22a5a3ee8a36d1c6de3cb59e5babd9.svg",
     "static/media/arrowBack.svg": "/Shopping-App-React/static/media/arrowBack.76f465c00ae8888f019524214c91e944.svg",
     "main.e3bd6f3d.css.map": "/Shopping-App-React/static/css/main.e3bd6f3d.css.map",
-    "main.35acec8c.js.map": "/Shopping-App-React/static/js/main.35acec8c.js.map",
+    "main.2a4f148c.js.map": "/Shopping-App-React/static/js/main.2a4f148c.js.map",
     "453.038d5e49.chunk.js.map": "/Shopping-App-React/static/js/453.038d5e49.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3bd6f3d.css",
-    "static/js/main.35acec8c.js"
+    "static/js/main.2a4f148c.js"
   ]
 }
