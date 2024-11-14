@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Shopping-App-React/static/css/main.e3bd6f3d.css",
+    "main.js": "/Shopping-App-React/static/js/main.35acec8c.js",
+    "static/js/453.038d5e49.chunk.js": "/Shopping-App-React/static/js/453.038d5e49.chunk.js",
+    "static/media/banner2.jpg": "/Shopping-App-React/static/media/banner2.4f3c15c1dac1e0550dc1.jpg",
+    "static/media/banner3.jpg": "/Shopping-App-React/static/media/banner3.358c894fc734d9009a11.jpg",
+    "static/media/banner1.jpg": "/Shopping-App-React/static/media/banner1.e555537761d29eed93f8.jpg",
+    "static/media/Logo.png": "/Shopping-App-React/static/media/Logo.d819103171782d34239e.png",
+    "static/media/OfferImg.webp": "/Shopping-App-React/static/media/OfferImg.123c769541a4bcb3f2ed.webp",
+    "index.html": "/Shopping-App-React/index.html",
+    "static/media/Cart.svg": "/Shopping-App-React/static/media/Cart.a243d36a0241869d8eef.svg",
+    "static/media/searchNew.svg": "/Shopping-App-React/static/media/searchNew.c63f6943390f08404a1f.svg",
+    "static/media/Star.svg": "/Shopping-App-React/static/media/Star.f4c2294e9802caea248f.svg",
+    "static/media/StarBlack.svg": "/Shopping-App-React/static/media/StarBlack.7b3a73b7079fb8a23b78.svg",
+    "static/media/menu.svg": "/Shopping-App-React/static/media/menu.271ea0c1da28d003ec386119e7b1ca5c.svg",
+    "static/media/arrowFrw.svg": "/Shopping-App-React/static/media/arrowFrw.6d22a5a3ee8a36d1c6de3cb59e5babd9.svg",
+    "static/media/arrowBack.svg": "/Shopping-App-React/static/media/arrowBack.76f465c00ae8888f019524214c91e944.svg",
+    "main.e3bd6f3d.css.map": "/Shopping-App-React/static/css/main.e3bd6f3d.css.map",
+    "main.35acec8c.js.map": "/Shopping-App-React/static/js/main.35acec8c.js.map",
+    "453.038d5e49.chunk.js.map": "/Shopping-App-React/static/js/453.038d5e49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3bd6f3d.css",
+    "static/js/main.35acec8c.js"
+  ]
+}
