@@ -1,0 +1,182 @@
+.MainParent {
+    text-align: left;
+}
+
+body {
+    background-color: rgb(249, 252, 255);
+}
+
+.ProductImg {
+    width: 150px;
+
+    /* float: left; */
+    margin-left: 20px;
+    margin-top: 30px;
+    position: fixed;
+    /* top: 95px; */
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    padding: 10px;
+    background-color: white;
+}
+
+.CartBtn {
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    /* float: left; */
+    /* top: 95px; */
+    border: 3px solid rgba(0, 0, 0, 0.11);
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.CartBtn::before {
+    background: no-repeat;
+    background-image: url('./Images/Cart.svg');
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    content: "";
+    background-size: 20px 19px;
+}
+
+.CartBtn:hover {
+    background-color: rgb(217, 141, 0);
+}
+
+.AboutProduct {
+    border: 1px solid rgba(0, 0, 0, 0.11);
+
+    padding: 0px 10px 10px 10px;
+    margin-top: 30px;
+    margin-left: 210px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    background-color: white;
+
+    min-height: 500px;
+    max-width: 600px;
+}
+
+.ratingTop {
+    display: inline-block;
+    background-color: gold;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(0, 91, 64);
+}
+
+.ratingTop::after {
+    background: no-repeat;
+    background-image: url('./Images/Star.svg');
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    content: "";
+    background-size: 17px 21px;
+}
+
+.OffersDiv {
+    border: 1px solid rgba(0, 0, 0, 0.11);
+
+    padding: 0px 10px 10px 10px;
+    margin-top: 20px;
+    margin-right: 50px;
+
+    background-color: white;
+
+    max-width: 600px;
+}
+
+@media (max-width: 800px) {
+    .OffersDiv {
+        margin-right: 0px;
+    }
+}
+
+.OfferSubHead::before {
+    background: no-repeat;
+    background-image: url('./Images/OfferImg.webp');
+    background-size: 18px 18px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: "";
+}
+
+.Description {
+    max-width: 500px;
+}
+
+@media (max-width: 600px) {
+    .ProductImg {
+        top: 0px;
+        position: relative;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: calc(50% - 97px);
+        padding-right: calc(50% - 97px);
+
+        --top: calc(50%/3 - 97px/3);
+
+        padding-top: var(--top);
+        padding-bottom: var(--top);
+    }
+
+    .AboutProduct {
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .ProductImg {
+        width: 300px;
+        max-height: 450px;
+    }
+
+    .AboutProduct {
+        margin-left: 350px;
+
+    }
+}
+
+@media (min-width: 1100px) {
+    .ProductImg {
+        margin-left: 10%;
+    }
+
+    .AboutProduct {
+        margin-left: calc(10% + 350px);
+
+        max-width: 900px;
+        margin-right: 10%;
+    }
+}
+
+.CategoryBody {
+    text-transform: capitalize;
+}
+
+.ratingBottom {
+    font-weight: 400;
+}
+
+.ratingBottom::after {
+    background: no-repeat;
+    background-image: url('./Images/StarBlack.svg');
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    content: "";
+    background-size: 35px 25px;
+}
+
+.RateCount {
+    font-weight: 700;
+}

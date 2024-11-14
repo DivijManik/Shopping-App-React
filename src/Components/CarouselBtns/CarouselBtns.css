@@ -1,0 +1,55 @@
+.CarouselBtnPrev,
+.CarouselBtnFrw {
+    position: absolute;
+    top: 25%;
+    width: 30px;
+    height: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.CarouselBtnFrw {
+    right: 0px;
+}
+
+.CarouselBtnPrev {
+    z-index: 5;
+    left: 0px;
+}
+
+.CarouselBtnPrev:hover,
+.CarouselBtnFrw:hover {
+    animation: CBHover 0.2s ease-in-out forwards;
+    cursor: pointer;
+}
+
+@keyframes CBHover {
+    0% {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    100% {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+@media (min-width: 900px) {
+
+    .CarouselBtnPrev,
+    .CarouselBtnFrw {
+        height: 50px;
+        width: 50px;
+        top: 40%;
+    }
+
+    .CarouselBtnFrw {
+        right: 10%;
+        padding: 10px;
+    }
+
+    .CarouselBtnPrev {
+        left: 10%;
+        padding-left: 15px;
+    }
+}
