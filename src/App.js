@@ -148,7 +148,11 @@ function ProductInfo({ ProductData, SetCurrentPage, SetProductID }) {
           <img src={ProductData.image}></img>
         </div>
         <p className='ProductTitle'>{ProductData.title}</p>
-        <h5 className='ProductPrice'>${ProductData.price}</h5>
+
+        {ProductData.price != null ?
+          <h5 className='ProductPrice'>₹{(ProductData.price * 80).toString().split(".")[0]}</h5>
+          :
+          <h5>₹</h5>}
       </div>
     </Link>
   )
